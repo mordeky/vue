@@ -1,0 +1,26 @@
+{
+    "name": "MyVue3",
+    "private": true,
+    "workspaces": [
+      "Vue",
+      "bth/SimpleTaskManager"
+    ],
+  "workspaces-old": [
+    "Vue/HelloVue",
+    "bth/SimpleTaskManager",
+    "Ch04/Ex04.01",
+    "Ch04/Ex04.02",
+    "Ch04/Ex04.03",
+    "Ch04/Ex04.04",
+    "Ch04/Ex04.05",
+    "Ch04/Ac04.01",
+    "Ch06/Ac6.01",
+    "Ch06/Ex6.01",
+    "Ch06/Ex6.02",
+    "Ch06/Ex6.03",
+    "Ch06/Ac6.01"
+  ],
+    "dependencies": {},
+    "scripts": {}
+  }
+  

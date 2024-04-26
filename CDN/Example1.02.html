@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vue.js CDN</title>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script>
+        // we can also use the DOM API to construct a Vue application instance
+        // and bound it to our target element
+        document.addEventListener('DOMContentLoaded', function () {
+            Vue.createApp({
+                data() {
+                    return {
+                        text: "Start using Vue.js today!"
+                    }
+                }
+            }).mount('#vue-app')
+        })
+    </script>
+</head>
+
+<body>
+<div id="vue-app">{{ text }}</div>
+</body>
+</html>
+
