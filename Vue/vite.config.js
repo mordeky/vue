@@ -10,9 +10,17 @@ export default defineConfig({
     vue(),
     VueDevTools(),
   ],
+  // base: '/vue-sidebar-menu/', // 启动时默认的根路径
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  }
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+      vue: 'vue/dist/vue.esm-bundler.js',
+    },
+    dedupe: ['vue'],
+  },
+  server: {
+    fs: {
+      allow: ['..'],
+    },
+  },
 })

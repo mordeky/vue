@@ -1,4 +1,4 @@
-  {
+{
   "name": "hellovue",
   "version": "0.0.0",
   "private": true,
@@ -12,9 +12,17 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "vue": "^3.4.21",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
+    "axios": "^1.1.3",
+    "contentful": "^9.3.6",
     "countable": "^3.0.1",
-    "axios": "^1.1.3"
+    "element-plus": "^2.7.3",
+    "prismjs": "^1.29.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vue-sidebar-menu": "^5.4.0"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.3.3",

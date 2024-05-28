@@ -1,7 +1,15 @@
 .DS_Store
 .idea
+
 bth
 mid-exam
+
 node_modules
-Vue/src/Ch01/Activity/Ac1.01-Exam
 yarn.lock
+
+Vue/src/Ch01/Activity/Ac1.01-Exam
+
+Vue/src/Ch07/4.nested-routes/1-intro
+Vue/src/Ch07/4.nested-routes/1-nest-route-levels-param
+Vue/src/Ch07/4.nested-routes/2-nest-route-levels-loop
+Vue/src/Ch07/4.nested-routes/3-nest-route-class

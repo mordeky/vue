@@ -25,7 +25,8 @@ export default {
 // import Component_xxx from './10-lifecycle/Ex1.10.vue'
 // import Component_xxx from './11-CSS/main.js'
 
-import Component_xxx from './Activity/Ac1.01/App.vue'
-// import Component_xxx from './Activity/Ac1.01-Exam/App.vue'
+// import Component_xxx from './Activity/Ac1.01/App.vue'
+import Component_xxx from './Activity/Ac1.01-Exam/App.vue'
+// import Component_xxx from './Activity/Mid-Exam-Tianyu/App.vue'
 
 </script>
