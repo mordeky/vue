@@ -6,6 +6,9 @@ mid-exam
 
 node_modules
 yarn.lock
+.eslintrc.cjs
+.prettierrc.json
+
 
 Vue/src/Ch01/Activity/Ac1.01-Exam
 

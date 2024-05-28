@@ -3,7 +3,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 const routes = [
     {
         path: '/',
-        component: () => import('./Level-0.vue'),
+        component: () => import('./Home.vue'),
     },
     {
         path: '/update',
