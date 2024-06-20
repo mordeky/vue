@@ -5,7 +5,7 @@ import { describe, it, expect } from 'vitest'
 describe("Exercise2-02.vue", () => {
   const wrapper = shallowMount(Exercise, {});
 
-  it("increment by one", async () => {
+  it("Increase by one", async () => {
     const textInput = wrapper.find("input");
     await textInput.setValue("1");
 

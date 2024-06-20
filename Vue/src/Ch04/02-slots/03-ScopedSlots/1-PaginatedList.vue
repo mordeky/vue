@@ -2,9 +2,7 @@
   <ul>
     <li v-for="el in items" :key="el.id">
       <slot :item_zzz="el"/>
-      <!--
-      <slot name="my-slot" :item_zzz="el"/>
-      -->
+      <slot name="my-slot" :item2="el"/>
     </li>
   </ul>
 </template>

@@ -25,23 +25,11 @@
   </section>
 </template>
 
-<!---->
 <script setup>
-let name = ""
-let language = ""
+import {ref} from 'vue'
+let name = ref('')
+let language = ref('')
 </script>
-
-
-<!--<script>
-export default {
-  data() {
-    return {
-      name: "",
-      language: "",
-    };
-  },
-};
-</script>-->
 
 <style>
 .form {

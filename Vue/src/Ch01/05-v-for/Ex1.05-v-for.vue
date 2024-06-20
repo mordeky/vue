@@ -14,18 +14,6 @@
 const interests = ["TV", "Games", "Sports"]
 </script>
 
-<!--
-<script>
-export default {
-  data() {
-    return {
-      interests: ["TV", "Games", "Sports"],
-    };
-  },
-};
-</script>
--->
-
 <style scoped>
 li {
   font-family: "Avenir", Helvetica, Arial, sans-serif;

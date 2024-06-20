@@ -2,13 +2,12 @@
   <div>
     <PaginatedList :items="snacks">
       <template #default="{ item_zzz }">
-        <h2>{{ item_zzz.content }}</h2>
+        <h2>{{ item_zzz.id }}</h2>
       </template>
-      <!--
+
       <template #my-slot="props">
-        <h2>{{ props.item_zzz.content }}</h2>
+        <h2>{{ props.item2.content }}</h2>
       </template>
-      -->
     </PaginatedList>
   </div>
 </template>

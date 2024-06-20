@@ -1,33 +1,28 @@
-import {createApp} from 'vue'
-import App from './Index/App.vue'
-import {createRouter, createWebHistory} from 'vue-router'
+// import './assets/main.css'
+import {createApp} from "vue";
 
-// import VueSidebarMenu from 'vue-sidebar-menu'
-// import 'vue-sidebar-menu/dist/vue-sidebar-menu.css'
-import VueSidebarMenu from './Index/vue-sidebar-menu/src'
-import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
-import PrismCode from './Index/components/PrismCode.vue'
-import './Index/fontawesome'
+// import App from './Ch01/AppWelcome.vue'
+// import App from './Ch01/App.vue'
+// import App from './Ch02/main.js'
+// import App from './Ch04/main.js'
+// import App from './Ch06/main.js'
+// import App from './Ch07/main.js'
+// import App from './Ch09/main.js'
+// import App from './Ch10/main.js'
 
-import './assets/main.css'
-import {getMenuRoutes} from './menu-routes.js'
+// import App from './Exam/main.js'
 
-async function main() {
-    const {routes} = await getMenuRoutes()
-    const router = createRouter({
-        history: createWebHistory(import.meta.env.BASE_URL),
-        routes: routes,
-    })
+import App from './Lec10-StateManagement/Pinia/main.js'
+// import App from './Lec10-StateManagement/Vuex/main.js'
 
-    createApp(App)
-        .use(router)
-        .use(VueSidebarMenu)
-        .component('prism-code', PrismCode)
-        .component('font-awesome-icon', FontAwesomeIcon)
-        .mount('#app')
+// import App from './Express/App.vue'
+
+// import App from './Vuetify/main.js'
+// console.log(typeof(App))
+
+if ('_uid' in App)
+    App.mount('#app')
+else {
+    const app = createApp(App)
+    app.mount('#app')
 }
-
-
-main().catch(error => {
-    console.error('Error message:', error)
-})

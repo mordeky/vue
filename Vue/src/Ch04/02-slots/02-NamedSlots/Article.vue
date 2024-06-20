@@ -4,5 +4,3 @@
     <div><b>Excerpt:</b> <slot name="excerpt" /></div>
   </article>
 </template>
-<script setup>
-</script>
